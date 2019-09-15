@@ -10,7 +10,7 @@ public class Test {
 		System.out.println("Resultado resta:" + resultado);
 		resultado = Calculo.multiplicacion(4, 5);
 		System.out.println("Resultado multiplicacion:" + resultado);
-		resultado = Calculo.division(4, 2);
+		resultado = Calculo.division(0, 5);
 		System.out.println("Resultado division:" + resultado);
 		resultado = Calculo.potencia(-8, 5);
 		System.out.println("Resultado potencia:" + resultado);

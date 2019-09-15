@@ -20,16 +20,13 @@ public class CalculoTestSuma {
 	public void testSuma() {
 		int total = 35;
 		int suma = (int) Calculo.suma(10, 25);
-		assertEquals(total,suma);
+		assertEquals(total, suma);
 	}
-	
+
 	@Test
 	public void testSumaFallida() {
 		int total = 15;
 		double suma = Calculo.suma(10, 25);
-		assertNotSame(total,suma);
+		assertNotSame(total, suma);
 	}
-
-	
-
 }
